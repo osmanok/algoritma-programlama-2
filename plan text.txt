@@ -1,0 +1,18 @@
+dosyalar{
+
+}
+bitsel islemler{
+
+}
+recursive{
+
+}
+pointers{
+
+}
+linked lists{
+
+}
+Sorting Algorithms{
+    
+}
