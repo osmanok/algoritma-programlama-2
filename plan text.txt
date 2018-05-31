@@ -5,7 +5,13 @@ bitsel islemler{
 
 }
 recursive{
-
+    faktoriyel.c 
+    fibo.c
+    printnumber.c --> Girilen sayiya kadar olan sayilari bastiran program
+    recursivetoplam.c
+    power.c
+    carpma-toplama.c -->carpma isleminin toplama ile yapilmasi
+    negatif-carpma=toplamaile.c
 }
 pointers{
 
