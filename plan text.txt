@@ -11,7 +11,9 @@ recursive{
     recursivetoplam.c
     power.c
     carpma-toplama.c -->carpma isleminin toplama ile yapilmasi
-    negatif-carpma=toplamaile.c
+    negatif-carpma.c -->negatif sayilarla carpma toplama ile
+    bolme-cikarma -->cikarma islemi ile bolme islemi
+    
 }
 pointers{
 
