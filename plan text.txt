@@ -13,7 +13,7 @@ recursive{
     carpma-toplama.c -->carpma isleminin toplama ile yapilmasi
     negatif-carpma.c -->negatif sayilarla carpma toplama ile
     bolme-cikarma -->cikarma islemi ile bolme islemi
-    
+    polingdrom  
 }
 pointers{
 
