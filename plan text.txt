@@ -1,5 +1,21 @@
-dosyalar{
-
+files{
+    fgetc-fputc.c{
+        fgetc   ---> id=fgetc(file-pointer)
+        fputc   ---> fputc(id, file-pointer)
+    }karakter icin
+    fgets-fputs.c{
+        fputs   ---> fputs("string" , file-pointer)
+        fgets   ---> fgets("okunan string degeri", kac karakter okunacagi, file-pointer);
+    }string icin 
+    fprintf-fscanf.c{
+        fprintf ---> fprintf(file-pointer, %tur, degisken)
+        fscanf  ---> fscanf(file-pointer, %tur, degisken)
+    }--->Farkli turler icin kullanilir
+    fwrite-fread.c{
+        fwrite  ---> fwrite(tampon-bellek, kac size, sizeof(tur), file-pointer);
+                     fwrite(&human1, sizeof(struct Human), 1, fp);
+        fscanf  ---> fscanf()
+    }
 }
 bitsel islemler{
 
