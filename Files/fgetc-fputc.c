@@ -6,13 +6,13 @@ int main(){
     int i=0;
 
     fp=fopen("deneme.txt","w");
-    for(i=0; i<100; i++){
+    for(i=65; i<=90; i++){
         fputc(i, fp);
     }
     fclose(fp);
 
     fp=fopen("deneme.txt","r");
-    for(i=0; i<100; i++){
+    for(i=0; i<=25; i++){
         printf("%c\t",fgetc(fp));
     }
 

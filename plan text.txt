@@ -17,7 +17,12 @@ files{
         fscanf  ---> fscanf()
     }
 }
-bitsel islemler{
+bitwise{
+    not.c ---> degilleme operatoru
+    andveor.c ---> and(&) ve or(|) operatorleri
+    allbit.c ----> unsigned short int de bit fonksiyonlari
+    intallbit.c ----> int de bit fonksiyonlari ve dogum gunu paketleme
+    rgbbit.c -----> rgb paketleme paket acma
 
 }
 recursive{
