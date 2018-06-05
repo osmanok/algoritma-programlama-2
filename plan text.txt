@@ -13,7 +13,7 @@ files{
     }--->Farkli turler icin kullanilir
     fwrite-fread.c{
         fwrite  ---> fwrite(tampon-bellek, kac size, sizeof(tur), file-pointer);
-                     fwrite(&human1, sizeof(struct Human), 1, fp);
+        fwrite(&human1, sizeof(struct Human), 1, fp);
         fscanf  ---> fscanf()
     }
 }
@@ -40,7 +40,8 @@ pointers{
 
 }
 linked lists{
-
+    tek-yonlu.c ----> tek yonlu bagli listede ekleme, sirali ekleme,
+    silme, arama, listeleme, hepsini silme fonksiyornlari
 }
 Sorting Algorithms{
     
